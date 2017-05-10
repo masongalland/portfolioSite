@@ -41,7 +41,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 100px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -115,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -161,6 +161,10 @@ header.masthead {
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+
+.skills-subheading {
+  font-size: 12px;
+  font-weight: 300; }
 
 #portfolio .portfolio-item {
   right: 0;
