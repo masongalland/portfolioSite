@@ -1,8 +1,10 @@
 // Styling for the portfolio section
 #portfolio {
+    
     .portfolio-item {
         right: 0;
-        margin: 0 0 15px;
+        margin: 0 0 30px;
+
         .portfolio-link {
             position: relative;
             display: block;
@@ -63,11 +65,20 @@
     }
 }
 
-@media(min-width:767px) {
+
+@media(min-width:1200px) {
+    .portfolio-thumbnails {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     #portfolio {
         .portfolio-item {
-            margin: 0 0 30px;
+            width: 31%
         }
+    }
+    #portfolio .portfolio-item .portfolio-caption h4 {
+    font-size: 1em;
     }
 }
 
