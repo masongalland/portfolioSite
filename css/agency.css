@@ -251,6 +251,12 @@ header.masthead {
   #portfolio .portfolio-item .portfolio-caption h4 {
     font-size: 1em; } }
 
+.portfolio-modal .project_info {
+  text-align: left; }
+
+.portfolio-modal .project_subhead {
+  text-align: right; }
+
 .portfolio-modal .modal-dialog {
   max-width: none;
   height: 100%;
@@ -281,7 +287,8 @@ header.masthead {
   .portfolio-modal .modal-content img {
     margin-bottom: 30px; }
   .portfolio-modal .modal-content button {
-    cursor: pointer; }
+    cursor: pointer;
+    margin-top: 30px; }
 
 .portfolio-modal .close-modal {
   position: absolute;

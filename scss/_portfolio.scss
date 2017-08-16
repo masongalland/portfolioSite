@@ -83,6 +83,12 @@
 }
 
 .portfolio-modal {
+    .project_info {
+        text-align: left;
+    }
+    .project_subhead {
+        text-align: right;
+    }
     .modal-dialog {
         max-width: none;
         height: 100%;
@@ -119,6 +125,7 @@
         }
         button {
             cursor: pointer;
+            margin-top: 30px;
         }
     }
     .close-modal {
