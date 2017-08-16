@@ -2,7 +2,7 @@
 header.masthead {
     text-align: center;
     color: white;
-    background-image: url('../img/road_hero.jpg');
+    background-image: url('../img/comp-hero.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -14,7 +14,7 @@ header.masthead {
             font-size: 22px;
             font-style: italic;
             line-height: 22px;
-            margin-bottom: 25px;
+            margin-bottom: 50px;
             @include serif-font;
         }
         .intro-heading {
@@ -36,14 +36,14 @@ header.masthead {
                 font-size: 40px;
                 font-style: italic;
                 line-height: 40px;
-                margin-bottom: 25px;
+                // margin-bottom: 25px;
                 @include serif-font;
             }
             .intro-heading {
                 font-size: 75px;
                 font-weight: 700;
                 line-height: 75px;
-                margin-bottom: 50px;
+                margin-bottom: 25px;
                 @include heading-font;
             }
         }
