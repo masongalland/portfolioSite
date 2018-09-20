@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v4.0.0-alpha (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
@@ -41,7 +41,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 50px 0; } }
+    padding: 50px 0 0 0; } }
 
 ::-moz-selection {
   background: #72b7ea;
@@ -192,6 +192,8 @@ header.masthead {
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 30px; }
+  #portfolio .portfolio-item .section-heading {
+    margin-bottom: 40px; }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
@@ -202,9 +204,9 @@ header.masthead {
       position: absolute;
       width: 100%;
       height: 100%;
-      -webkit-transition: all ease .5s;
-      -moz-transition: all ease .5s;
-      transition: all ease .5s;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
       opacity: 0;
       background: rgba(114, 183, 234, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -247,7 +249,7 @@ header.masthead {
     flex-wrap: wrap;
     justify-content: space-between; }
   #portfolio .portfolio-item {
-    width: 31%; }
+    width: 49%; }
   #portfolio .portfolio-item .portfolio-caption h4 {
     font-size: 1em; } }
 
@@ -299,7 +301,7 @@ header.masthead {
   cursor: pointer;
   background-color: transparent; }
   .portfolio-modal .close-modal:hover {
-    opacity: .3; }
+    opacity: 0.3; }
   .portfolio-modal .close-modal .lr {
     /* Safari and Chrome */
     z-index: 1051;
@@ -518,7 +520,8 @@ section#contact {
   section#contact .text-danger {
     color: #e74c3c; }
   section#contact .btn {
-    cursor: pointer; }
+    cursor: pointer;
+    margin-bottom: 40px; }
 
 footer {
   padding: 25px 0;
